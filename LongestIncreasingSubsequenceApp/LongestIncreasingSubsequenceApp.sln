@@ -5,6 +5,16 @@ VisualStudioVersion = 17.6.33717.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestIncreasingSubsequenceApp", "LongestIncreasingSubsequenceApp.csproj", "{A74B4FBA-A3BC-499F-90DC-9E7C9F49F789}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. App", "1. App", "{93A51188-815E-40BF-B91E-4B0034C5BBE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Services", "2. Services", "{44B5F32C-16E9-4C91-BA2C-3310A852A3AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Unit Tests", "3. Unit Tests", "{BF063C4D-1B04-442E-9F26-DE9ED314DBA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestIncreasingSubsequenceApp.Tests", "..\LongestIncreasingSubsequenceApp.Tests\LongestIncreasingSubsequenceApp.Tests.csproj", "{F877CB94-6E8C-4761-8E09-99CB94F600E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestIncreasingSubsequenceApp.Services", "..\LongestIncreasingSubsequenceApp.Services\LongestIncreasingSubsequenceApp.Services.csproj", "{A875CDA8-FF33-4A51-BC37-5FC3264952A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +25,22 @@ Global
 		{A74B4FBA-A3BC-499F-90DC-9E7C9F49F789}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A74B4FBA-A3BC-499F-90DC-9E7C9F49F789}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A74B4FBA-A3BC-499F-90DC-9E7C9F49F789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F877CB94-6E8C-4761-8E09-99CB94F600E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F877CB94-6E8C-4761-8E09-99CB94F600E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F877CB94-6E8C-4761-8E09-99CB94F600E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F877CB94-6E8C-4761-8E09-99CB94F600E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A875CDA8-FF33-4A51-BC37-5FC3264952A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A875CDA8-FF33-4A51-BC37-5FC3264952A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A875CDA8-FF33-4A51-BC37-5FC3264952A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A875CDA8-FF33-4A51-BC37-5FC3264952A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A74B4FBA-A3BC-499F-90DC-9E7C9F49F789} = {93A51188-815E-40BF-B91E-4B0034C5BBE2}
+		{F877CB94-6E8C-4761-8E09-99CB94F600E7} = {BF063C4D-1B04-442E-9F26-DE9ED314DBA2}
+		{A875CDA8-FF33-4A51-BC37-5FC3264952A4} = {44B5F32C-16E9-4C91-BA2C-3310A852A3AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {76E2FA3C-FA53-4E5B-8879-493EC466B890}
